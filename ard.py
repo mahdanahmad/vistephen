@@ -15,5 +15,5 @@ def arduino_read():
         x = float(angles[0])
         y = float(angles[1])
         angle = float(angles[2])
-		force = float(angles[3])
+	force = float(angles[3])
         line_done = 1 
