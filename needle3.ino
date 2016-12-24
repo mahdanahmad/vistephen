@@ -117,9 +117,12 @@ void loop() {
     if (Serial.available()){
       char rx=Serial.read();
       if (rx=='.'){
-        Serial.println(xc[0]);
-        Serial.println(yo[0]);
-        Serial.println(p2_origin[1]);
+        Serial.print(xc[0]);
+        Serial.print(", ");
+        Serial.print(yo[0]);
+        Serial.print(", ");
+        Serial.print(p2_origin[1]);
+        Serial.print(", ");
         Serial.println(rlc);
       }
       delay(1);
