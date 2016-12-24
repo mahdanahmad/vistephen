@@ -118,7 +118,7 @@ void loop() {
     Serial.println(xc[0]);
     Serial.println(yo[0]);
     Serial.println(p2_origin[1]);
-    Serial.print(rlc);
+    Serial.println(rlc);
     delay(1);
     }
   }  
