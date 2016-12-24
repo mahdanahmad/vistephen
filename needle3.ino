@@ -93,7 +93,7 @@ HX711 scale(A1, A0);
 
 void setup() {
 
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   //change timer2 register B prescaler at digital pin 3&11 for PWM frequency 31372.55 Hz. CANNOT use tone, spi!
   TCCR2B = TCCR2B & B11111000 | B00000001; //0x01 
