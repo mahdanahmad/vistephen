@@ -1,5 +1,6 @@
 from math import sin, cos, radians, pi
 import os, sys, time, errno, pygame, random, platform
+import ard
 
 pygame.init()
 info            = pygame.display.Info()
@@ -19,10 +20,15 @@ screenWidth     = info.current_w
 screenHeight    = info.current_h
 screenRes       = (screenWidth, screenHeight)
 
-avail_x         = range(10)
-avail_y         = range(-1, 4)
-avail_force     = range(1000)
-avail_angle     = range(-10, 31)
+#avail_x         = range(10)
+#avail_y         = range(-1, 4)
+#avail_force     = range(1000)
+#avail_angle     = range(-10, 31)
+avail_x         = x
+avail_y         = y
+avail_force     = force
+avail_angle     = angle
+
 
 screen          = pygame.display.set_mode(screenRes, pygame.FULLSCREEN)
 # screen          = pygame.display.set_mode((400, 300))
