@@ -1,5 +1,6 @@
 import serial
 ser = serial.Serial("COM3", 115200)
+x = y = angle = force = 0.0
 
 def arduino_read():
 	global x, y, angle, force
